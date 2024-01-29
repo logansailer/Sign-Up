@@ -13,7 +13,7 @@ body{
 
 .form-div{
     background-color: #37393f;
-    height: 60vh;
+    height: 65vh;
     width: 500px;
     border-radius: 5px;
 }
@@ -47,8 +47,14 @@ input{
     border-radius: 5px;
 }
 
-.submit{
-    background-color: #5C69F4;
+#updates{
+    margin: 0px 10px 0px 30px;
+}
+
+.updates{
+    margin: 15px 0 15px 0;
+    font-weight: 400;
+    align-self: start;
 }
 
 p{
@@ -58,7 +64,6 @@ p{
     color:#5C69F4;
 }
 
-.updates{
-    font-weight: 400;
-    display: inline-block;
+.submit{
+    background-color: #5C69F4;
 }
