@@ -1,5 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    overflow: auto;
 }
 
 body{
@@ -12,9 +13,9 @@ body{
 
 .form-div{
     background-color: #37393f;
-    height: 75vh;
-    width: 400px;
-    border-radius: 7px;
+    height: 60vh;
+    width: 500px;
+    border-radius: 5px;
 }
 
 form{
@@ -25,6 +26,7 @@ form{
 h2{
     color: white;
     text-align: center;
+    margin: 40px 0 0 0;
 }
 
 label{
@@ -32,7 +34,7 @@ label{
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 0.03em;
-    margin: 15px 30px 8px 30px;;
+    margin: 10px 30px 7px 30px;;
 }
 
 input{
@@ -42,5 +44,21 @@ input{
     margin: 0 30px 15px 30px;
     background-color: #222425;
     border: 0;
-    border-radius: 7px;
+    border-radius: 5px;
+}
+
+.submit{
+    background-color: #5C69F4;
+}
+
+p{
+    margin: 15px 30px 8px 30px;;
+    font-weight: 600;
+    font-size: smaller;
+    color:#5C69F4;
+}
+
+.updates{
+    font-weight: 400;
+    display: inline-block;
 }
