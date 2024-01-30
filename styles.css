@@ -13,7 +13,7 @@ body{
 
 .form-div{
     background-color: #37393f;
-    height: 65vh;
+    height: 80vh;
     width: 500px;
     border-radius: 5px;
 }
@@ -52,7 +52,7 @@ input{
 }
 
 .updates{
-    margin: 15px 30px 15px 30px;
+    margin: 15px 30px;
     font-weight: 400;
     align-self: start;
 }
@@ -66,4 +66,23 @@ p{
 
 .submit{
     background-color: #5C69F4;
+}
+
+.focus-text {
+    display:none;
+    margin: 0px 30px 20px 30px;
+    color: white;
+    font-size: 0.73rem;
+}
+
+#display-name:focus + .focus-text {
+    display: block;
+}
+
+#username:focus + .focus-text {
+    display: block;
+}
+
+#confirm-password:focus + .focus-text {
+    display: block;
 }
