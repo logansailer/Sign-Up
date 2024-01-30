@@ -3,6 +3,10 @@
     overflow: auto;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     display: flex;
     background-color: #5C69F4;
@@ -13,7 +17,7 @@ body{
 
 .form-div{
     background-color: #37393f;
-    height: 80vh;
+    height: 82vh;
     width: 500px;
     border-radius: 5px;
 }
@@ -32,7 +36,7 @@ h2{
 label{
     color: #b5bac1;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.7em;
     letter-spacing: 0.03em;
     margin: 10px 30px 7px 30px;;
 }
@@ -41,10 +45,15 @@ input{
     color: white;
     font-size: 14px;
     padding: 10px;
-    margin: 0 30px 15px 30px;
+    margin: 0 30px 10px 30px;
     background-color: #222425;
     border: 0;
     border-radius: 5px;
+}
+
+span{
+    color:red;
+    font-size: 0.6rem;
 }
 
 #updates{
